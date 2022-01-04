@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/dogs">Adopt-a-Dogs</NavLink>
+          <NavLink to="/" className="navigate">
+            Home
+          </NavLink>
         </header>
         <Switch>
           <Route path="/dogs/:id">

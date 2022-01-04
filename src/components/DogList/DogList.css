@@ -1,5 +1,5 @@
 img {
-  width: 100px;
+  width: 200px;
   border-radius: 100%;
 }
 
@@ -12,5 +12,11 @@ img {
 }
 
 .list-item {
-  border: black 2px solid;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #3d405b;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
 }

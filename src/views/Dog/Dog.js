@@ -18,5 +18,5 @@ export default function Dog() {
     fetchData();
   }, [params.id]);
 
-  return <div>{loading ? <span>...loading</span> : <DogDetail dog={dog[0]} />}</div>;
+  return <div>{loading ? <span>...loading</span> : <DogDetail dog={dog[0]} showDetail />}</div>;
 }
