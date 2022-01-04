@@ -1,0 +1,16 @@
+img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  border: black 2px solid;
+}

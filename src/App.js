@@ -18,7 +18,9 @@ function App() {
           <Route path="/dogs">
             <Dogs />
           </Route>
-          <Route path="/"></Route>
+          <Route path="/">
+            <Dogs />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
