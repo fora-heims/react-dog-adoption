@@ -9,7 +9,11 @@
 
 .big-dog {
   width: 500px;
-  border-radius: 0px;
+}
+
+.small-dog {
+  width: 200px;
+  border-radius: 100%;
 }
 
 .button {

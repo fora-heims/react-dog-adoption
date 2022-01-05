@@ -6,7 +6,7 @@ export async function getDogs() {
 }
 
 export async function getDog(id) {
-  let request = await client.from('dogs').select('*').match({ id: id });
+  let request = await client.from('dogs').select('*').match({ id: id }).single();
   return checkError(request);
 }
 
@@ -21,6 +21,6 @@ export async function insertDog(dog) {
 }
 
 export async function deleteDog(id) {
-  let request = await client.from('dogs').delete().match({ id });
+  let request = await client.from('dogs').delete().match({ id: id });
   return checkError(request);
 }

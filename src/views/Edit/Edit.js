@@ -14,7 +14,7 @@ export default function Edit() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getDog(params.id);
-      setDog(data[0]);
+      setDog(data);
     };
     fetchData();
   }, [params.id]);

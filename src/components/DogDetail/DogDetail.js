@@ -5,9 +5,9 @@ import './DogDetail.css';
 export default function DogDetail({ dog, showDetail = false }) {
   const getClassName = () => {
     if (showDetail) {
-      return 'big-dog';
-    } else {
       return '';
+    } else {
+      return 'small-dog';
     }
   };
 
@@ -26,8 +26,7 @@ export default function DogDetail({ dog, showDetail = false }) {
       <p>
         {dog.name} is a(n) {getAgeString()} year old {dog.breed}
       </p>
-      <br />
-      {showDetail && <span>{dog.bio}</span>}
+      {showDetail && <p>{dog.bio}</p>}
       {showDetail && (
         <Link to={`/dogs/${dog.id}/edit`} className="button">
           Edit

@@ -22,7 +22,7 @@ export default function Dog() {
   return (
     <div>
       <Header />
-      {loading ? <span>...loading</span> : <DogDetail dog={dog[0]} showDetail />}
+      {loading ? <span>...loading</span> : <DogDetail dog={dog} showDetail />}
     </div>
   );
 }

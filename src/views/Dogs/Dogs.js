@@ -18,9 +18,9 @@ export default function Dogs() {
   }, []);
 
   return (
-    <div>
+    <>
       <Header />
       {loading ? <span>...loading</span> : <DogList dogs={dogs}></DogList>}
-    </div>
+    </>
   );
 }
