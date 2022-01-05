@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import DogDetail from '../../components/DogDetail/DogDetail.js';
+import Header from '../../components/Header/Header.js';
 import { getDog } from '../../services/dogs.js';
 import './Dog.css';
 
@@ -18,5 +19,10 @@ export default function Dog() {
     fetchData();
   }, [params.id]);
 
-  return <div>{loading ? <span>...loading</span> : <DogDetail dog={dog[0]} showDetail />}</div>;
+  return (
+    <div>
+      <Header />
+      {loading ? <span>...loading</span> : <DogDetail dog={dog[0]} showDetail />}
+    </div>
+  );
 }

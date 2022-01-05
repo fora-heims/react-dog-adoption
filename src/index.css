@@ -10,19 +10,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 100vw;
-  background-color: #3d405b;
-  color: #81b29a;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .navigate,
 .navigate:visited {
   color: #81b29a;

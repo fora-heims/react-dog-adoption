@@ -7,11 +7,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <header>
-          <NavLink to="/" className="navigate">
-            Home
-          </NavLink>
-        </header>
         <Switch>
           <Route path="/dogs/:id">
             <Dog />
