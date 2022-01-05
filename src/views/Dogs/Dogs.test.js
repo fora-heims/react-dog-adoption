@@ -1,13 +1,13 @@
-import { Dogs } from './Dogs.js';
+import Dogs from './Dogs.js';
 import { MemoryRouter } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 
-test.skip('', async () => {
+test('', async () => {
   const { container } = render(
     <MemoryRouter>
       <Dogs />
     </MemoryRouter>
   );
-  await screen.findByText('Mrs. Weasley');
+  await screen.findByText('Meet Mrs. Weasley');
   expect(container).toMatchSnapshot();
 });
