@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './DogDetail.css';
 
 export default function DogDetail({ dog, showDetail = false }) {
@@ -27,8 +28,12 @@ export default function DogDetail({ dog, showDetail = false }) {
       </p>
       <br />
       {showDetail && <span>{dog.bio}</span>}
-      <button>Edit</button>
-      <button>Delete</button>
+      {showDetail && (
+        <Link to={`/dogs/${dog.id}/edit`} className="button">
+          Edit
+        </Link>
+      )}
+      {showDetail && <button className="button">Delete</button>}
     </div>
   );
 }

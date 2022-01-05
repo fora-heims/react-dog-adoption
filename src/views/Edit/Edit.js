@@ -3,7 +3,7 @@ import './Edit.css';
 import { useState, useEffect, React } from 'react';
 import Header from '../../components/Header/Header.js';
 import Form from '../../components/Form/Form.js';
-import { getDog } from '../../services/dogs.js';
+import { getDog, updateDog } from '../../services/dogs.js';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Edit() {
@@ -19,17 +19,19 @@ export default function Edit() {
     fetchData();
   }, [params.id]);
 
-  const saveButtonHandler = () => {};
+  const saveButtonHandler = () => {
+    updateDog();
+  };
 
-  const updateDog = (key, value) => {
+  const updateDogState = (key, value) => {
     dog[key] = value;
     setDog({ ...dog });
   };
 
   return (
-    <div>
+    <div className="edit">
       <Header />
-      <Form handler={saveButtonHandler} {...dog} setDog={setDog} updateDog={updateDog} />
+      <Form handler={saveButtonHandler} {...dog} setDog={setDog} updateDogState={updateDogState} />
     </div>
   );
 }

@@ -11,3 +11,11 @@
   width: 500px;
   border-radius: 0px;
 }
+
+.button {
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: brown;
+}

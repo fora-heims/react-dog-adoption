@@ -34,14 +34,18 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
+.button {
   border-radius: 20px;
   border: none;
   width: 320px;
   background-color: #3d405b;
+  text-decoration: none;
   color: #f4f1de;
   height: 2rem;
   font-size: 1rem;
   font-weight: 700;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -2,7 +2,7 @@ import './Form.css';
 
 import React from 'react';
 
-export default function Form({ name, bio, age, image, breed, updateDog }) {
+export default function Form({ name, bio, age, image, breed, updateDogState, handler }) {
   return (
     <form>
       <h2>Enter Dog Details</h2>
@@ -13,7 +13,7 @@ export default function Form({ name, bio, age, image, breed, updateDog }) {
           placeholder="Name"
           value={name}
           onChange={(e) => {
-            updateDog('name', e.target.value);
+            updateDogState('name', e.target.value);
           }}
         ></input>
       </label>
@@ -23,7 +23,7 @@ export default function Form({ name, bio, age, image, breed, updateDog }) {
           placeholder="Bio"
           value={bio}
           onChange={(e) => {
-            updateDog('bio', e.target.value);
+            updateDogState('bio', e.target.value);
           }}
         ></textarea>
       </label>
@@ -34,7 +34,7 @@ export default function Form({ name, bio, age, image, breed, updateDog }) {
           placeholder="Age"
           value={age}
           onChange={(e) => {
-            updateDog('age', e.target.value);
+            updateDogState('age', e.target.value);
           }}
         ></input>
       </label>
@@ -45,7 +45,7 @@ export default function Form({ name, bio, age, image, breed, updateDog }) {
           placeholder="Image URL"
           value={image}
           onChange={(e) => {
-            updateDog('image', e.target.value);
+            updateDogState('image', e.target.value);
           }}
         ></input>
       </label>
@@ -56,11 +56,13 @@ export default function Form({ name, bio, age, image, breed, updateDog }) {
           placeholder="Breed"
           value={breed}
           onChange={(e) => {
-            updateDog('breed', e.target.value);
+            updateDogState('breed', e.target.value);
           }}
         ></input>
       </label>
-      <button>Save</button>
+      <button onClick={handler} className="button">
+        Save
+      </button>
     </form>
   );
 }
