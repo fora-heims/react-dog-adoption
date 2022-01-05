@@ -27,6 +27,8 @@ export default function DogDetail({ dog, showDetail = false }) {
       </p>
       <br />
       {showDetail && <span>{dog.bio}</span>}
+      <button>Edit</button>
+      <button>Delete</button>
     </div>
   );
 }

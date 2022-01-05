@@ -9,4 +9,5 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
+  gap: 20px;
 }
