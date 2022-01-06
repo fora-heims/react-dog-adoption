@@ -2,10 +2,20 @@ import './Form.css';
 
 import React from 'react';
 
-export default function Form({ name, bio, age, image, breed, updateDogState, handler }) {
+export default function Form({
+  name,
+  bio,
+  age,
+  image,
+  breed,
+  updateDogState,
+  saveButtonHandler,
+  message,
+}) {
   return (
     <form>
       <h2>Enter Dog Details</h2>
+      <p>{message}</p>
       <label>
         Name:
         <input
@@ -60,7 +70,7 @@ export default function Form({ name, bio, age, image, breed, updateDogState, han
           }}
         ></input>
       </label>
-      <button onClick={handler} className="button">
+      <button onClick={saveButtonHandler} className="button">
         Save
       </button>
     </form>

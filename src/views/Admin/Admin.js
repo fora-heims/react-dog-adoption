@@ -8,9 +8,12 @@ import { insertDog } from '../../services/dogs';
 
 export default function Admin() {
   const [dog, setDog] = useState({});
+  const [message, setMessage] = useState('');
 
-  const saveButtonHandler = async (dog) => {
+  const saveButtonHandler = async () => {
     await insertDog(dog);
+    setDog({});
+    setMessage('Successfully added a dragon');
   };
 
   const updateDogState = (key, value) => {
@@ -21,7 +24,12 @@ export default function Admin() {
   return (
     <div className="admin">
       <Header />
-      <Form handler={saveButtonHandler} dog={dog} setDog={setDog} updateDogState={updateDogState} />
+      <Form
+        message={message}
+        saveButtonHandler={saveButtonHandler}
+        {...dog}
+        updateDogState={updateDogState}
+      />
     </div>
   );
 }

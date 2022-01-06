@@ -31,7 +31,12 @@ export default function Edit() {
   return (
     <div className="edit">
       <Header />
-      <Form handler={saveButtonHandler} {...dog} setDog={setDog} updateDogState={updateDogState} />
+      <Form
+        saveButtonHandler={saveButtonHandler}
+        {...dog}
+        setDog={setDog}
+        updateDogState={updateDogState}
+      />
     </div>
   );
 }
