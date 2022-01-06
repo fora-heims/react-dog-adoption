@@ -9,11 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-.navigate,
-.navigate:visited {
-  color: #81b29a;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-}

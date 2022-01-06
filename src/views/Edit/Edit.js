@@ -8,7 +8,7 @@ import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Edit() {
   const [dog, setDog] = useState({});
-  const [message, setMessage] = useState('Message showing up');
+  const [message, setMessage] = useState('');
 
   let params = useParams();
 
@@ -22,7 +22,7 @@ export default function Edit() {
 
   const saveButtonHandler = async () => {
     await updateDog({ ...dog, id: params.id });
-    setMessage('Update message success!');
+    setMessage('Details successfully Updated!');
   };
 
   const updateDogState = (key, value) => {

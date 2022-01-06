@@ -11,3 +11,19 @@ header {
   text-decoration: none;
   gap: 20px;
 }
+
+.navigate,
+.navigate:visited {
+  color: #81b29a;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.not-active {
+  text-decoration: none;
+}

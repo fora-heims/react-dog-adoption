@@ -4,7 +4,6 @@ import DogDetail from '../DogDetail/DogDetail.js';
 import './DogList.css';
 
 export default function DogList({ dogs }) {
-  // console.log(dogs);
   return (
     <div className="list">
       {dogs.map((dog) => (
