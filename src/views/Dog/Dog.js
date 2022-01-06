@@ -1,14 +1,16 @@
 import { React, useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import DogDetail from '../../components/DogDetail/DogDetail.js';
 import Header from '../../components/Header/Header.js';
-import { getDog } from '../../services/dogs.js';
+import { getDog, deleteDog } from '../../services/dogs.js';
 import './Dog.css';
 
 export default function Dog() {
   const [dog, setDog] = useState({});
   const [loading, setLoading] = useState(true);
+
   const params = useParams();
+  const history = useHistory();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,10 +21,19 @@ export default function Dog() {
     fetchData();
   }, [params.id]);
 
+  const deleteButtonHandler = async () => {
+    await deleteDog(params.id);
+    history.push('/dogs');
+  };
+
   return (
     <div>
       <Header />
-      {loading ? <span>...loading</span> : <DogDetail dog={dog} showDetail />}
+      {loading ? (
+        <span>...loading</span>
+      ) : (
+        <DogDetail deleteButtonHandler={deleteButtonHandler} dog={dog} showDetail />
+      )}
     </div>
   );
 }

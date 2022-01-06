@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './DogDetail.css';
 
-export default function DogDetail({ dog, showDetail = false }) {
+export default function DogDetail({ dog, deleteButtonHandler, showDetail = false }) {
   const getClassName = () => {
     if (showDetail) {
       return '';
@@ -32,7 +32,11 @@ export default function DogDetail({ dog, showDetail = false }) {
           Edit
         </Link>
       )}
-      {showDetail && <button className="button">Delete</button>}
+      {showDetail && (
+        <button onClick={deleteButtonHandler} className="button">
+          Delete
+        </button>
+      )}
     </div>
   );
 }
