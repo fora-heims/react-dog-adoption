@@ -7,7 +7,8 @@ import { getDog, updateDog } from '../../services/dogs.js';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Edit() {
-  const [dog, setDog] = useState({});
+  const [dog, setDog] = useState({ name: '', bio: '', age: '', image: '', breed: '' });
+  const [message, setMessage] = useState('');
 
   let params = useParams();
 
@@ -19,8 +20,9 @@ export default function Edit() {
     fetchData();
   }, [params.id]);
 
-  const saveButtonHandler = () => {
-    updateDog();
+  const saveButtonHandler = async () => {
+    await updateDog({ ...dog, id: params.id });
+    setMessage('Dragon details were updated.');
   };
 
   const updateDogState = (key, value) => {
@@ -32,9 +34,9 @@ export default function Edit() {
     <div className="edit">
       <Header />
       <Form
+        message={message}
         saveButtonHandler={saveButtonHandler}
         {...dog}
-        setDog={setDog}
         updateDogState={updateDogState}
       />
     </div>

@@ -9,11 +9,17 @@ form {
   width: 400px;
   border-radius: 5px;
   margin: 10px;
-  height: 535px;
+  height: 575px;
+  padding-top: 10px;
+}
+
+label {
+  display: flex;
+  align-content: space-between;
 }
 
 h2 {
-  margin: -13px;
+  margin: -19px;
 }
 
 input[type='number'],

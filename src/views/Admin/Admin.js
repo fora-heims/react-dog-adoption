@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { insertDog } from '../../services/dogs';
 
 export default function Admin() {
-  const [dog, setDog] = useState({});
+  const [dog, setDog] = useState({ name: '', bio: '', age: '', image: '', breed: '' });
   const [message, setMessage] = useState('');
 
   const saveButtonHandler = async () => {

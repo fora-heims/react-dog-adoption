@@ -11,7 +11,7 @@ export async function getDog(id) {
 }
 
 export async function updateDog(dog) {
-  let request = await client.from('dogs').update(dog).eq('id', dog.id);
+  let request = await client.from('dogs').update(dog).match({ id: dog.id });
   return checkError(request);
 }
 
