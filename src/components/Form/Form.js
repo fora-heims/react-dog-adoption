@@ -13,7 +13,7 @@ export default function Form({
   message,
 }) {
   return (
-    <form>
+    <div className="form">
       <h2>Enter Dog Details</h2>
       <p>{message}</p>
       <label>
@@ -73,6 +73,6 @@ export default function Form({
       <button onClick={saveButtonHandler} className="button">
         Save
       </button>
-    </form>
+    </div>
   );
 }

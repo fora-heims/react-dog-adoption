@@ -3,40 +3,53 @@
 exports[` 1`] = `
 <div>
   <div>
-    <div>
-      <header>
-        <a
-          aria-current="page"
-          class="navigate active"
-          href="/"
-        >
-          Home
-        </a>
-      </header>
-    </div>
+    <header>
+      <a
+        aria-current="page"
+        class="navigate active"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="navigate"
+        href="/admin"
+      >
+        Admin
+      </a>
+    </header>
     <div
       class="detail"
     >
       <h3>
         Meet 
-        Mrs. Weasley
+        Dragon
       </h3>
       <img
         alt="dog"
-        class="big-dog"
-        src="https://placedog.net/1000/563?id=3"
+        class=""
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
       />
       <p>
-        Mrs. Weasley
+        Dragon
          is a(n) 
-        3
+        267
          year old 
-        Golden Retriever
+        Ukrainian Ironbelly
       </p>
-      <br />
-      <span>
-        Mrs. Weasley was found pregnant on the streets. She gave birth to 4 lively pups, Ron & Ginny are still available for adoption. She's working on her resource guarding but will make a wonderful family dog. 
-      </span>
+      <p>
+        Breathes fire in Orlando, Florida
+      </p>
+      <button
+        class="button"
+      >
+        Edit
+      </button>
+      <button
+        class="button"
+      >
+        Delete
+      </button>
     </div>
   </div>
 </div>

@@ -3,7 +3,6 @@ import { useParams, useHistory } from 'react-router-dom';
 import DogDetail from '../../components/DogDetail/DogDetail.js';
 import Header from '../../components/Header/Header.js';
 import { getDog, deleteDog } from '../../services/dogs.js';
-import './Dog.css';
 
 export default function Dog() {
   const [dog, setDog] = useState({});

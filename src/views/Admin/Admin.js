@@ -7,13 +7,13 @@ import { useState } from 'react';
 import { insertDog } from '../../services/dogs';
 
 export default function Admin() {
-  const [dog, setDog] = useState({ name: '', bio: '', age: '', image: '', breed: '' });
+  const [dog, setDog] = useState({});
   const [message, setMessage] = useState('');
 
   const saveButtonHandler = async () => {
     await insertDog(dog);
+    setMessage('Update message Success!');
     setDog({});
-    setMessage('Successfully added a dragon');
   };
 
   const updateDogState = (key, value) => {

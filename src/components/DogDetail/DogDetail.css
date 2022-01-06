@@ -13,7 +13,8 @@
 
 .small-dog {
   width: 200px;
-  border-radius: 100%;
+  border-radius: 50%;
+  max-height: 200px;
 }
 
 .button {

@@ -8,6 +8,6 @@ test('', async () => {
       <Dogs />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Mrs. Weasley');
+  await screen.findByText('Meet Dragon');
   expect(container).toMatchSnapshot();
 });
