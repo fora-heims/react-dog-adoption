@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './DogDetail.css';
 
-export default function DogDetail({ dog, deleteButtonHandler, showDetail = false }) {
+export default function DogDetail({
+  dog,
+  editButtonHandler,
+  deleteButtonHandler,
+  showDetail = false,
+}) {
   const getClassName = () => {
     if (showDetail) {
       return '';
@@ -28,9 +32,9 @@ export default function DogDetail({ dog, deleteButtonHandler, showDetail = false
       </p>
       {showDetail && <p>{dog.bio}</p>}
       {showDetail && (
-        <Link to={`/dogs/${dog.id}/edit`} className="button">
+        <button onClick={editButtonHandler} className="button">
           Edit
-        </Link>
+        </button>
       )}
       {showDetail && (
         <button onClick={deleteButtonHandler} className="button">

@@ -21,6 +21,10 @@ export default function Dog() {
     fetchData();
   }, [params.id]);
 
+  const editButtonHandler = () => {
+    history.push(`/dogs/${params.id}/edit`);
+  };
+
   const deleteButtonHandler = async () => {
     await deleteDog(params.id);
     history.push('/dogs');
@@ -32,7 +36,12 @@ export default function Dog() {
       {loading ? (
         <span>...loading</span>
       ) : (
-        <DogDetail deleteButtonHandler={deleteButtonHandler} dog={dog} showDetail />
+        <DogDetail
+          deleteButtonHandler={deleteButtonHandler}
+          dog={dog}
+          editButtonHandler={editButtonHandler}
+          showDetail
+        />
       )}
     </div>
   );
