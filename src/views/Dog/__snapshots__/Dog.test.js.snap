@@ -5,14 +5,13 @@ exports[` 1`] = `
   <div>
     <header>
       <a
-        aria-current="page"
-        class="navigate active"
+        class="navigate activenot-active navigate"
         href="/"
       >
         Home
       </a>
       <a
-        class="navigate"
+        class="navigate activenot-active navigate"
         href="/admin"
       >
         Admin
@@ -38,7 +37,7 @@ exports[` 1`] = `
         Ukrainian Ironbelly
       </p>
       <p>
-        Breathes fire in Orlando, Florida
+        Please don't mess with Dragon. It might break this site (snapshot testing).
       </p>
       <button
         class="button"

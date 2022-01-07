@@ -5,13 +5,13 @@ exports[` 1`] = `
   <header>
     <a
       aria-current="page"
-      class="navigate active"
+      class="navigate activenavigate active"
       href="/"
     >
       Home
     </a>
     <a
-      class="navigate"
+      class="navigate activenot-active navigate"
       href="/admin"
     >
       Admin
@@ -20,31 +20,6 @@ exports[` 1`] = `
   <div
     class="list"
   >
-    <a
-      class="list-item"
-      href="/dogs/1"
-    >
-      <div
-        class="detail"
-      >
-        <h3>
-          Meet 
-          Dragon
-        </h3>
-        <img
-          alt="dog"
-          class="small-dog"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
-        />
-        <p>
-          Dragon
-           is a(n) 
-          267
-           year old 
-          Ukrainian Ironbelly
-        </p>
-      </div>
-    </a>
     <a
       class="list-item"
       href="/dogs/8"
@@ -92,31 +67,6 @@ exports[` 1`] = `
           999
            year old 
           Water Dragon
-        </p>
-      </div>
-    </a>
-    <a
-      class="list-item"
-      href="/dogs/6"
-    >
-      <div
-        class="detail"
-      >
-        <h3>
-          Meet 
-          Does
-        </h3>
-        <img
-          alt="dog"
-          class="small-dog"
-          src="https://target.scene7.com/is/image/Target/GUEST_e35742ef-53d2-4325-a04c-e8bd549da145"
-        />
-        <p>
-          Does
-           is a(n) 
-          3
-           year old 
-          Party Dog
         </p>
       </div>
     </a>
@@ -192,6 +142,131 @@ exports[` 1`] = `
           4454
            year old 
           Earth Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/11"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Adobe
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://cc-prod.scene7.com/is/image/CCProdAuthor/how-to-draw-a-dragon_P1_900x420?$pjpeg$&jpegSize=200&wid=900"
+        />
+        <p>
+          Adobe
+           is a(n) 
+          39
+           year old 
+          Flying Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/12"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Sadness
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://res.cloudinary.com/teepublic/image/private/s--IZUuUFev--/c_crop,x_10,y_10/c_fit,h_851/c_crop,g_north_west,h_1038,w_1038,x_-250,y_-93/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-361,y_-204/b_rgb:00fff7/c_limit,f_jpg,h_630,q_90,w_630/v1593067432/production/designs/11654521_0.jpg"
+        />
+        <p>
+          Sadness
+           is a(n) 
+          8
+           year old 
+          Rainbow Unicorn
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/6"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Dogon
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://target.scene7.com/is/image/Target/GUEST_e35742ef-53d2-4325-a04c-e8bd549da145"
+        />
+        <p>
+          Dogon
+           is a(n) 
+          3
+           year old 
+          Party Dog
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/13"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Meow
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://preview.redd.it/tkm21fggopc31.jpg?auto=webp&s=35c5d02a32ba4ee2a52a5c90e7bece1a49e26728"
+        />
+        <p>
+          Meow
+           is a(n) 
+          1
+           year old 
+          Cat Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/1"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Dragon
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
+        />
+        <p>
+          Dragon
+           is a(n) 
+          267
+           year old 
+          Ukrainian Ironbelly
         </p>
       </div>
     </a>

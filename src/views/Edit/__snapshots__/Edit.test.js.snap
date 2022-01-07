@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div
+    class="edit"
+  >
+    <header>
+      <a
+        class="navigate activenot-active navigate"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="navigate activenot-active navigate"
+        href="/admin"
+      >
+        Admin
+      </a>
+    </header>
+    <div
+      class="form"
+    >
+      <h2>
+        Enter Dog Details
+      </h2>
+      <p />
+      <label>
+        Name:
+        <input
+          placeholder="Name"
+          type="text"
+          value="Dragon"
+        />
+      </label>
+      <label>
+        Bio:
+        <textarea
+          placeholder="Bio"
+        >
+          Please don't mess with Dragon. It might break this site (snapshot testing).
+        </textarea>
+      </label>
+      <label>
+        Age:
+        <input
+          placeholder="Age"
+          type="number"
+          value="267"
+        />
+      </label>
+      <label>
+        Image:
+        <input
+          placeholder="Image URL"
+          type="text"
+          value="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
+        />
+      </label>
+      <label>
+        Breed:
+        <input
+          placeholder="Breed"
+          type="text"
+          value="Ukrainian Ironbelly"
+        />
+      </label>
+      <button
+        class="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;
