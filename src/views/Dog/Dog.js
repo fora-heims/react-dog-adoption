@@ -26,7 +26,7 @@ export default function Dog() {
 
   const deleteButtonHandler = async () => {
     await deleteDog(params.id);
-    history.push('/dogs');
+    history.push('/');
   };
 
   return (

@@ -11,9 +11,16 @@ export default function Admin() {
   const [message, setMessage] = useState('');
 
   const saveButtonHandler = async () => {
-    await insertDog(dog);
-    setMessage('Update message Success!');
-    setDog({});
+    try {
+      await insertDog(dog);
+      setMessage('Details successfully Updated!');
+      setDog({});
+      setTimeout(() => {
+        setMessage('');
+      }, 2000);
+    } catch {
+      setMessage('Something went wrong!');
+    }
   };
 
   const updateDogState = (key, value) => {
