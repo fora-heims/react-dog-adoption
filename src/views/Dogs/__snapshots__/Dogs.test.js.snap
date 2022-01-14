@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <header>
+    <a
+      aria-current="page"
+      class="navigate activenavigate active"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="navigate activenot-active navigate"
+      href="/admin"
+    >
+      Admin
+    </a>
+  </header>
+  <div
+    class="list"
+  >
+    <a
+      class="list-item"
+      href="/dogs/8"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Cameron
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://monikazagrobelna.com/wp-content/uploads/2020/03/shybaby-19.jpg"
+        />
+        <p>
+          Cameron
+           is a(n) 
+          2
+           year old 
+          Finger Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/9"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Sisudatu
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/deflc3u-10de42ad-9512-4f04-9f65-dcd3c25f5ccd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGVmbGMzdS0xMGRlNDJhZC05NTEyLTRmMDQtOWY2NS1kY2QzYzI1ZjVjY2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.E0Cy1zUF7MiQFw2e1BTXn6KtW6kl-2qUOzpPlC-F_vI"
+        />
+        <p>
+          Sisudatu
+           is a(n) 
+          999
+           year old 
+          Water Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/5"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Agni
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://cdna.artstation.com/p/assets/images/images/006/482/270/large/rosen-simeonov-fire-dragon.jpg?1498932662"
+        />
+        <p>
+          Agni
+           is a(n) 
+          3333
+           year old 
+          Fire Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/7"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Eragon
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="http://images2.fanpop.com/images/polls/231000/231137_1241429298306_full.jpg?v=1241429305"
+        />
+        <p>
+          Eragon
+           is a(n) 
+          450
+           year old 
+          Air Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/10"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Earnest
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://o.quizlet.com/hwJLaize8GwdZDvh.GOTbQ_b.jpg"
+        />
+        <p>
+          Earnest
+           is a(n) 
+          4454
+           year old 
+          Earth Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/11"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Adobe
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://cc-prod.scene7.com/is/image/CCProdAuthor/how-to-draw-a-dragon_P1_900x420?$pjpeg$&jpegSize=200&wid=900"
+        />
+        <p>
+          Adobe
+           is a(n) 
+          39
+           year old 
+          Flying Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/12"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Sadness
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://res.cloudinary.com/teepublic/image/private/s--IZUuUFev--/c_crop,x_10,y_10/c_fit,h_851/c_crop,g_north_west,h_1038,w_1038,x_-250,y_-93/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-361,y_-204/b_rgb:00fff7/c_limit,f_jpg,h_630,q_90,w_630/v1593067432/production/designs/11654521_0.jpg"
+        />
+        <p>
+          Sadness
+           is a(n) 
+          8
+           year old 
+          Rainbow Unicorn
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/6"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Dogon
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://target.scene7.com/is/image/Target/GUEST_e35742ef-53d2-4325-a04c-e8bd549da145"
+        />
+        <p>
+          Dogon
+           is a(n) 
+          3
+           year old 
+          Party Dog
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/13"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Meow
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://preview.redd.it/tkm21fggopc31.jpg?auto=webp&s=35c5d02a32ba4ee2a52a5c90e7bece1a49e26728"
+        />
+        <p>
+          Meow
+           is a(n) 
+          1
+           year old 
+          Cat Dragon
+        </p>
+      </div>
+    </a>
+    <a
+      class="list-item"
+      href="/dogs/1"
+    >
+      <div
+        class="detail"
+      >
+        <h3>
+          Meet 
+          Dragon
+        </h3>
+        <img
+          alt="dog"
+          class="small-dog"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
+        />
+        <p>
+          Dragon
+           is a(n) 
+          267
+           year old 
+          Ukrainian Ironbelly
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;

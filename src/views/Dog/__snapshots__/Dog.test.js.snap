@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div>
+    <header>
+      <a
+        class="navigate activenot-active navigate"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="navigate activenot-active navigate"
+        href="/admin"
+      >
+        Admin
+      </a>
+    </header>
+    <div
+      class="detail"
+    >
+      <h3>
+        Meet 
+        Dragon
+      </h3>
+      <img
+        alt="dog"
+        class=""
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gringotts_Dragon_%2842428011465%29.jpg/675px-Gringotts_Dragon_%2842428011465%29.jpg"
+      />
+      <p>
+        Dragon
+         is a(n) 
+        267
+         year old 
+        Ukrainian Ironbelly
+      </p>
+      <p>
+        Please don't mess with Dragon. It might break this site (snapshot testing).
+      </p>
+      <button
+        class="button"
+      >
+        Edit
+      </button>
+      <button
+        class="button"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
+`;
